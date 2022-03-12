@@ -537,12 +537,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 52px;
 }
 
-.mr-\[\] {
-  margin-right: ;
-}
-
-.mr-\[52\.75px\] {
-  margin-right: 52.75px;
+.mb-\[-16rem\] {
+  margin-bottom: -16rem;
 }
 
 .ml-\[121\.49px\] {
@@ -553,40 +549,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 35.9px;
 }
 
-.mt-\[-3\.2rem\] {
-  margin-top: -3.2rem;
-}
-
-.mb-\[120px\] {
-  margin-bottom: 120px;
-}
-
 .mt-\[-3\.1rem\] {
   margin-top: -3.1rem;
 }
 
-.mb-\[72px\] {
-  margin-bottom: 72px;
-}
-
-.mt-\[360px\] {
-  margin-top: 360px;
-}
-
-.mb-\[-16rem\] {
-  margin-bottom: -16rem;
-}
-
-.block {
-  display: block;
-}
-
-.inline-block {
-  display: inline-block;
-}
-
-.inline {
-  display: inline;
+.mr-\[52\.75px\] {
+  margin-right: 52.75px;
 }
 
 .flex {
@@ -609,40 +577,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 464px;
 }
 
-.max-h-\[464px\] {
-  max-height: 464px;
-}
-
-.max-h-\[20px\] {
-  max-height: 20px;
-}
-
 .w-\[350px\] {
   width: 350px;
 }
 
 .w-\[287px\] {
   width: 287px;
-}
-
-.w-\[100\%\] {
-  width: 100%;
-}
-
-.w-\[50\%\] {
-  width: 50%;
-}
-
-.w-\[20\%\] {
-  width: 20%;
-}
-
-.w-\[40\%\] {
-  width: 40%;
-}
-
-.w-\[60\%\] {
-  width: 60%;
 }
 
 .w-\[359\.81px\] {
@@ -657,16 +597,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 69.375rem;
 }
 
-.max-w-\[350px\] {
-  max-width: 350px;
-}
-
 .max-w-\[64\.05px\] {
   max-width: 64.05px;
 }
 
-.max-w-\[20px\] {
-  max-width: 20px;
+.max-w-\[350px\] {
+  max-width: 350px;
 }
 
 .flex-row {
@@ -681,20 +617,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   align-items: center;
 }
 
-.justify-end {
-  justify-content: flex-end;
-}
-
 .justify-center {
   justify-content: center;
 }
 
 .justify-between {
   justify-content: space-between;
-}
-
-.justify-around {
-  justify-content: space-around;
 }
 
 .gap-\[96px\] {
@@ -707,10 +635,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-\[40px\] {
   gap: 40px;
-}
-
-.gap-\[35\.9px\] {
-  gap: 35.9px;
 }
 
 .gap-\[28px\] {
@@ -749,16 +673,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(243 237 231 / var(--tw-bg-opacity));
 }
 
-.from-blue-dark {
-  --tw-gradient-from: #172339;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(23 35 57 / 0));
-}
-
-.from-\[\] {
-  --tw-gradient-from: ;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(255 255 255 / 0));
-}
-
 .py-\[12px\] {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -793,24 +707,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 12rem;
 }
 
-.pr-\[125px\] {
-  padding-right: 125px;
+.pt-\[360px\] {
+  padding-top: 360px;
 }
 
 .pb-\[72px\] {
   padding-bottom: 72px;
 }
 
-.pt-\[360px\] {
-  padding-top: 360px;
-}
-
 .text-left {
   text-align: left;
-}
-
-.text-center {
-  text-align: center;
 }
 
 .font-sans {
@@ -884,10 +790,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:bg-blue-dark:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(23 35 57 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-gradient-to-r:hover {
-  background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
 .hover\:bg-gradient-to-br:hover {

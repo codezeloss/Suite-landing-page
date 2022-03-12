@@ -19,9 +19,7 @@ module.exports = {
     fontFamily: {
       sans: ["Epilogue", "sans-serif"],
     },
-    extend: {
-      // margin:
-    },
+    extend: {},
     plugins: [],
   },
 };
