@@ -15,7 +15,8 @@ module.exports = {
     },
     extend: {
       screens: {
-        sm: { max: "767px" },
+        mobile: { max: "622px" },
+        sm: { max: "828px" },
         md: { max: "927px" },
         lg: { max: "1145px" },
         xl: { max: "1155px" },

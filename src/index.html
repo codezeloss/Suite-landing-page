@@ -21,45 +21,46 @@
 
   <body class="bg-white font-sans">
     <header
-      class="max-w-[1110px] flex flex-col mt-[50px] mb-[154px] mx-auto xl:px-11"
+      class="max-w-[1110px] flex flex-col mt-[50px] mb-[154px] mx-auto xl:px-11 mobile:px-[1.8rem]"
     >
-      <div class="flex justify-between items-center mb-[67px]">
-        <img src="/assets/logo.svg" alt="Suite logo" />
+      <div class="flex justify-between items-center mb-[67px] mobile:mb-[32px]">
+        <img class="mobile:mr-6" src="/assets/logo.svg" alt="Suite logo" />
         <a
-          class="items-center border rounded-[6px] border-[#172339] py-[12px] px-[25px] text-blue-dark font-bold hover:bg-blue-dark hover:text-cream"
+          class="items-center text-[16px] border rounded-[6px] border-[#172339] py-[12px] px-[25px] text-blue-dark font-bold hover:bg-blue-dark hover:text-cream mobile:text-[14px]"
           href="#"
           >Request Beta Access</a
         >
       </div>
+
       <div
         class="max-w-[1110px] flex flex-row gap-[96px] xl:flex-col xl:gap-[54px] xl:mt-[52px]"
       >
         <div
-          class="flex flex-col z-[2] relative pr-[12rem] py-[3.105rem] xl:py-[0rem]"
+          class="flex flex-col z-[2] relative pr-[12rem] py-[3.105rem] xl:py-[0rem] sm:pr-0"
         >
           <div class="absolute top-0 right-0 z-[-1] w-[350px] h-[600px]">
             <img
-              class=""
+              class="sm:hidden"
               src="/assets/image-hero-portrait@2x.png"
               alt="Phone illustration"
             />
           </div>
           <div>
             <img
-              class="w-[287px] h-[36px] mb-[21.32px] ml-[303px]"
+              class="w-[287px] h-[36px] mb-[21.32px] ml-[303px] md:ml-[170px] mobile:w-[151.47px] mobile:h-[19px] mobile:ml-[100px]"
               src="/assets/pattern-curved-line-1.svg"
               alt="Curved Line"
             />
           </div>
           <div>
             <h1
-              class="text-[72px] leading-[78px] text-blue-dark mb-[40px] md:text-[66px] md:leading-[68px] lg:mb-[30px]"
+              class="text-[72px] leading-[78px] text-blue-dark mb-[40px] md:text-[58px] md:leading-[68px] lg:mb-[30px] mobile:text-[38px] mobile:leading-[44px]"
             >
               A <span class="font-bold">super solution<br /></span> for your
               <span class="font-bold">business.</span>
             </h1>
             <p
-              class="mr-auto text-[18px] text-blue-light leading-[32px] w-[350px] mb-[52px] lg:mb-[30px]"
+              class="mr-auto text-[18px] text-blue-light leading-[32px] w-[350px] mb-[52px] lg:mb-[30px] sm:w-[100%]"
             >
               Our marketing and sales automations help you scale your outreach
               to get more leads for your company.
@@ -72,12 +73,12 @@
           </div>
         </div>
         <img
-          class="hidden w-[100%]"
+          class="hidden w-[100%] sm:flex"
           src="/assets/image-hero-landscape@2x.png"
           alt="Phone illustaryion"
         />
         <div
-          class="flex flex-col gap-[63px] justify-center text-left xl:flex-row xl:justify-start md:gap-[45px]"
+          class="flex justify-center xl:justify-start flex-col gap-[63px] xl:flex-row xl:flex xl:text-left sm:justify-center md:gap-[43px] mobile:flex-col mobile:gap-[63px] mobile:mt-[52px]"
         >
           <div class="flex flex-col xl:text-center">
             <p class="leading-[56px] font-bold text-[48px] text-blue-dark">
@@ -107,7 +108,7 @@
 
     <!-- MAIN -->
     <main
-      class="max-w-[1110px] mx-auto rounded-[15px] bg-blue-dark text-white flex flex-row mb-[-16rem] mt-[254px] relative xl:px-11 lg:flex-col lg:mt-[454px]"
+      class="max-w-[1110px] mx-auto rounded-[15px] bg-blue-dark text-white flex flex-row mb-[-16rem] mt-[254px] relative xl:px-11 lg:flex-col lg:mt-[454px] mobile:mt-[395px] mobile:px-[1.8rem]"
     >
       <div class="lg:flex lg:justify-center">
         <div class="absolute z-10 ml-[121.49px] mr-[35.9px]">
@@ -132,11 +133,11 @@
           />
         </div>
         <div class="flex flex-col gap-[40px] py-[88px] lg:pt-[44px]">
-          <h2 class="text-[48px] text-cream">
+          <h2 class="text-[48px] text-cream mobile:text-[34px]">
             It just <span class="font-bold">works.</span>
           </h2>
           <p
-            class="max-w-[350px] text-[20px] font-normal text-cream leading-[35px] lg:max-w-[100%] lg:px-10"
+            class="max-w-[350px] text-[20px] font-normal text-cream leading-[35px] lg:max-w-[100%]"
           >
             “I really like how it is an all-in-one solution that handle many of
             the tasks that you would normally need separate tools to do the same
@@ -151,9 +152,9 @@
     </main>
 
     <!-- FOOTER -->
-    <footer class="bg-cream h-[464px]">
+    <footer class="bg-cream h-[464px] mobile:h-[100%]">
       <div
-        class="max-w-[1110px] flex flex-row justify-between mx-auto items-center pt-[360px] pb-[72px] xl:px-11"
+        class="max-w-[1110px] flex flex-row justify-between mx-auto items-center pt-[360px] pb-[72px] xl:px-11 mobile:flex-col mobile:gap-[33px] mobile:px-[1.8rem]"
       >
         <img src="/assets/logo.svg" alt="Suite logo" />
         <p class="text-[15px] text-blue-light">Copyright - Suite</p>
