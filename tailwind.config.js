@@ -1,12 +1,6 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    screens: {
-      sm: "480px",
-      md: "768px",
-      lg: "976px",
-      xl: "1180.85px",
-    },
     colors: {
       "blue-dark": "#172339",
       "blue-light": "#49566D",
@@ -19,7 +13,17 @@ module.exports = {
     fontFamily: {
       sans: ["Epilogue", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      screens: {
+        sm: { max: "767px" },
+        md: { max: "927px" },
+        lg: { max: "1145px" },
+        xl: { max: "1155px" },
+      },
+      width: {
+        bk: "",
+      },
+    },
     plugins: [],
   },
 };
