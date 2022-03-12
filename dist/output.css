@@ -16,7 +16,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #e5e7eb;
+  border-color: currentColor;
   /* 2 */
 }
 
@@ -42,7 +42,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Epilogue, sans-serif;
   /* 4 */
 }
 
@@ -466,4 +466,303 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
+}
+
+.z-\[2\] {
+  z-index: 2;
+}
+
+.z-\[-1\] {
+  z-index: -1;
+}
+
+.mx-\[2\.26vw\] {
+  margin-left: 2.26vw;
+  margin-right: 2.26vw;
+}
+
+.mx-\[4\.26vw\] {
+  margin-left: 4.26vw;
+  margin-right: 4.26vw;
+}
+
+.mx-\[1110px\] {
+  margin-left: 1110px;
+  margin-right: 1110px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mt-\[50px\] {
+  margin-top: 50px;
+}
+
+.mb-\[67px\] {
+  margin-bottom: 67px;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mb-\[40px\] {
+  margin-bottom: 40px;
+}
+
+.mb-\[52px\] {
+  margin-bottom: 52px;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
+.mr-\[-20\E8x\] {
+  margin-right: -20èx;
+}
+
+.mr-\[-20px\] {
+  margin-right: -20px;
+}
+
+.mr-\[-40px\] {
+  margin-right: -40px;
+}
+
+.mr-\[-4rem\] {
+  margin-right: -4rem;
+}
+
+.mr-\[-8rem\] {
+  margin-right: -8rem;
+}
+
+.mr-\[-18rem\] {
+  margin-right: -18rem;
+}
+
+.mr-\[-9\.85rem\] {
+  margin-right: -9.85rem;
+}
+
+.mr-\[-15\.85rem\] {
+  margin-right: -15.85rem;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mb-\[154px\] {
+  margin-bottom: 154px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
+}
+
+.flex {
+  display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.max-h-\[600px\] {
+  max-height: 600px;
+}
+
+.w-\[350px\] {
+  width: 350px;
+}
+
+.w-\[1180px\] {
+  width: 1180px;
+}
+
+.w-\[1110px\] {
+  width: 1110px;
+}
+
+.w-\[1108px\] {
+  width: 1108px;
+}
+
+.max-w-\[350px\] {
+  max-width: 350px;
+}
+
+.max-w-\[1180px\] {
+  max-width: 1180px;
+}
+
+.max-w-\[1110px\] {
+  max-width: 1110px;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-\[96px\] {
+  gap: 96px;
+}
+
+.gap-0 {
+  gap: 0px;
+}
+
+.gap-px {
+  gap: 1px;
+}
+
+.gap-\[63px\] {
+  gap: 63px;
+}
+
+.rounded-\[6px\] {
+  border-radius: 6px;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-\[blue\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 255 / var(--tw-border-opacity));
+}
+
+.border-\[\#172339\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(23 35 57 / var(--tw-border-opacity));
+}
+
+.bg-cream {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 237 231 / var(--tw-bg-opacity));
+}
+
+.bg-blue-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 35 57 / var(--tw-bg-opacity));
+}
+
+.py-\[12px\] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.px-\[25px\] {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.px-\[32px\] {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.py-\[15px\] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-sans {
+  font-family: Epilogue, sans-serif;
+}
+
+.text-\[72px\] {
+  font-size: 72px;
+}
+
+.text-\[18px\] {
+  font-size: 18px;
+}
+
+.text-\[48px\] {
+  font-size: 48px;
+}
+
+.text-\[16px\] {
+  font-size: 16px;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.leading-\[78px\] {
+  line-height: 78px;
+}
+
+.leading-\[32px\] {
+  line-height: 32px;
+}
+
+.leading-\[\] {
+  line-height: ;
+}
+
+.leading-\[56px\] {
+  line-height: 56px;
+}
+
+.leading-\[16px\] {
+  line-height: 16px;
+}
+
+.text-blue-dark {
+  --tw-text-opacity: 1;
+  color: rgb(23 35 57 / var(--tw-text-opacity));
+}
+
+.text-blue-light {
+  --tw-text-opacity: 1;
+  color: rgb(73 86 109 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(250 248 246 / var(--tw-text-opacity));
 }

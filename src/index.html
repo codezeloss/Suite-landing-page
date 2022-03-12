@@ -5,12 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="/dist/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="/dist/output.css" rel="stylesheet" />
 
     <title>Suite landing page</title>
   </head>
 
-  <body>
-    <h1>Hello World</h1>
+  <body class="bg-cream font-sans">
+    <header class="flex flex-col mt-[50px] mb-[154px]">
+      <nav
+        class="w-[1108px] flex items-center justify-between mb-[67px] mx-auto"
+      >
+        <img src="/assets/logo.svg" alt="Suite logo" />
+        <a
+          class="border rounded-[6px] border-[#172339] py-[12px] px-[25px] text-blue-dark font-bold"
+          href="#"
+          >Request Beta Access</a
+        >
+      </nav>
+
+      <div class="w-[1110px] hero flex justify-between mx-auto items-center">
+        <div class="flex flex-row gap-[96px] items-center">
+          <div class="mr-[-15.85rem] z-[2]">
+            <h1 class="text-[72px] leading-[78px] text-blue-dark mb-[40px]">
+              A <span class="font-bold">super solution<br /></span> for your
+              <span class="font-bold">business.</span>
+            </h1>
+            <p
+              class="mr-auto text-[18px] text-blue-light leading-[32px] w-[350px] mb-[52px]"
+            >
+              Our marketing and sales automations help you scale your outreach
+              to get more leads for your company.
+            </p>
+            <a
+              class="rounded-[6px] py-[15px] px-[32px] text-white bg-blue-dark font-bold inline-flex"
+              href="#"
+              >Request Beta Access</a
+            >
+          </div>
+          <div>
+            <img
+              class="max-w-[350px] max-h-[600px] z-[-1]"
+              src="/assets/image-hero-portrait@2x.png"
+              alt="Phone illustration"
+            />
+          </div>
+        </div>
+        <div class="flex flex-col gap-[63px]">
+          <div class="flex flex-col">
+            <p class="leading-[56px] font-bold text-[48px] text-blue-dark">
+              2k+
+            </p>
+            <p class="text-blue-light font-normal text-[16px] uppercase">
+              Companies
+            </p>
+          </div>
+          <div class="flex flex-col">
+            <p class="leading-[56px] font-bold text-[48px] text-blue-dark">8</p>
+            <p class="text-blue-light font-normal text-[16px] uppercase">
+              Languages
+            </p>
+          </div>
+          <div class="flex flex-col">
+            <p class="leading-[56px] font-bold text-[48px] text-blue-dark">
+              1.2M
+            </p>
+            <p class="text-blue-light font-normal text-[16px] uppercase">
+              Leads
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
