@@ -680,6 +680,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 78.41px;
 }
 
+.w-\[69\.375\] {
+  width: 69.375;
+}
+
+.w-\[69\.375rem\] {
+  width: 69.375rem;
+}
+
+.w-\[69\.25rem\] {
+  width: 69.25rem;
+}
+
+.min-w-\[1108px\] {
+  min-width: 1108px;
+}
+
 .max-w-\[350px\] {
   max-width: 350px;
 }
@@ -690,6 +706,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-\[1110px\] {
   max-width: 1110px;
+}
+
+.max-w-\[69\.25rem\] {
+  max-width: 69.25rem;
+}
+
+.max-w-\[69\.375rem\] {
+  max-width: 69.375rem;
 }
 
 .flex-row {
