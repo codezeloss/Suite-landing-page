@@ -468,6 +468,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
 .z-\[2\] {
   z-index: 2;
 }
@@ -564,6 +580,42 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 154px;
 }
 
+.mt-\[45px\] {
+  margin-top: 45px;
+}
+
+.mt-\[45\.68px\] {
+  margin-top: 45.68px;
+}
+
+.mb-\[21\.32px\] {
+  margin-bottom: 21.32px;
+}
+
+.ml-\[289px\] {
+  margin-left: 289px;
+}
+
+.mr-\[248px\] {
+  margin-right: 248px;
+}
+
+.ml-\[275px\] {
+  margin-left: 275px;
+}
+
+.mr-\[249px\] {
+  margin-right: 249px;
+}
+
+.ml-\[304px\] {
+  margin-left: 304px;
+}
+
+.ml-\[303px\] {
+  margin-left: 303px;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -578,6 +630,22 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .inline-flex {
   display: inline-flex;
+}
+
+.h-\[375px\] {
+  height: 375px;
+}
+
+.h-\[36px\] {
+  height: 36px;
+}
+
+.h-\[24\.8px\] {
+  height: 24.8px;
+}
+
+.h-\[600px\] {
+  height: 600px;
 }
 
 .max-h-\[600px\] {
@@ -598,6 +666,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[1108px\] {
   width: 1108px;
+}
+
+.w-\[287px\] {
+  width: 287px;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[78\.41px\] {
+  width: 78.41px;
 }
 
 .max-w-\[350px\] {
@@ -648,6 +728,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 63px;
 }
 
+.gap-14 {
+  gap: 3.5rem;
+}
+
 .rounded-\[6px\] {
   border-radius: 6px;
 }
@@ -676,6 +760,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(23 35 57 / var(--tw-bg-opacity));
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 248 246 / var(--tw-bg-opacity));
+}
+
 .py-\[12px\] {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -694,6 +783,31 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-\[15px\] {
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.py-\[3\.105rem\] {
+  padding-top: 3.105rem;
+  padding-bottom: 3.105rem;
+}
+
+.pr-\[11rem\] {
+  padding-right: 11rem;
+}
+
+.pr-\[12rem\] {
+  padding-right: 12rem;
+}
+
+.pr-\[199px\] {
+  padding-right: 199px;
+}
+
+.pr-\[120px\] {
+  padding-right: 120px;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .text-center {

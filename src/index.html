@@ -17,22 +17,34 @@
     <title>Suite landing page</title>
   </head>
 
-  <body class="bg-cream font-sans">
+  <body class="bg-white font-sans">
     <header class="flex flex-col mt-[50px] mb-[154px]">
-      <nav
-        class="w-[1108px] flex items-center justify-between mb-[67px] mx-auto"
+      <div
+        class="w-[1108px] flex justify-between items-center mb-[67px] mx-auto"
       >
         <img src="/assets/logo.svg" alt="Suite logo" />
         <a
-          class="border rounded-[6px] border-[#172339] py-[12px] px-[25px] text-blue-dark font-bold"
+          class="items-center border rounded-[6px] border-[#172339] py-[12px] px-[25px] text-blue-dark font-bold"
           href="#"
           >Request Beta Access</a
         >
-      </nav>
+      </div>
 
-      <div class="w-[1110px] hero flex justify-between mx-auto items-center">
-        <div class="flex flex-row gap-[96px] items-center">
-          <div class="mr-[-15.85rem] z-[2]">
+      <div class="w-[1110px] flex flex-row gap-[96px] mx-auto">
+        <div class="flex flex-col z-[2] relative pr-[12rem] py-[3.105rem]">
+          <div class="absolute top-0 right-0 z-[-1] w-[350px] h-[600px]">
+            <img
+              src="/assets/image-hero-portrait@2x.png"
+              alt="Phone illustration"
+            />
+          </div>
+          <div>
+            <img
+              class="w-[287px] h-[36px] mb-[21.32px] ml-[303px]"
+              src="/assets/pattern-curved-line-1.svg"
+            />
+          </div>
+          <div>
             <h1 class="text-[72px] leading-[78px] text-blue-dark mb-[40px]">
               A <span class="font-bold">super solution<br /></span> for your
               <span class="font-bold">business.</span>
@@ -49,15 +61,8 @@
               >Request Beta Access</a
             >
           </div>
-          <div>
-            <img
-              class="max-w-[350px] max-h-[600px] z-[-1]"
-              src="/assets/image-hero-portrait@2x.png"
-              alt="Phone illustration"
-            />
-          </div>
         </div>
-        <div class="flex flex-col gap-[63px]">
+        <div class="flex flex-col gap-[63px] justify-center text-left">
           <div class="flex flex-col">
             <p class="leading-[56px] font-bold text-[48px] text-blue-dark">
               2k+
@@ -83,5 +88,9 @@
         </div>
       </div>
     </header>
+
+    <main></main>
+
+    <footer></footer>
   </body>
 </html>
