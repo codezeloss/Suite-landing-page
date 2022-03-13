@@ -561,6 +561,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 52.75px;
 }
 
+.mt-\[-2\.1rem\] {
+  margin-top: -2.1rem;
+}
+
 .flex {
   display: flex;
 }
