@@ -783,6 +783,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 35px;
 }
 
+.tracking-\[\.25em\] {
+  letter-spacing: .25em;
+}
+
+.tracking-\[2\.5px\] {
+  letter-spacing: 2.5px;
+}
+
+.tracking-\[\.2\.5px\] {
+  letter-spacing: .2.5px;
+}
+
 .text-blue-dark {
   --tw-text-opacity: 1;
   color: rgb(23 35 57 / var(--tw-text-opacity));
