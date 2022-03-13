@@ -1032,10 +1032,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     font-size: 38px;
   }
 
-  .mobile\:text-\[34px\] {
-    font-size: 34px;
-  }
-
   .mobile\:text-\[35px\] {
     font-size: 35px;
   }
