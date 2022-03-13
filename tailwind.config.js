@@ -25,6 +25,6 @@ module.exports = {
         bk: "",
       },
     },
-    plugins: [],
+    plugins: [require("tailwindcss"), require("autoprefixer")],
   },
 };
