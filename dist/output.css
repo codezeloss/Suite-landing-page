@@ -1036,6 +1036,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     font-size: 34px;
   }
 
+  .mobile\:text-\[35px\] {
+    font-size: 35px;
+  }
+
   .mobile\:leading-\[44px\] {
     line-height: 44px;
   }
