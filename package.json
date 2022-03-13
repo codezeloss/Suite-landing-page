@@ -90,7 +90,9 @@
     "yaml": "^1.10.2"
   },
   "scripts": {
-    "build:tailwinds": "tailwind build src/input.css -o dist/output.css"
+    "dev": "vite",
+    "build": "vite build",
+    "build:tailwinds": "tailwind build css/input.css -o dist/output.css"
   },
   "repository": {
     "type": "git",

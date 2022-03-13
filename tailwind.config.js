@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./**/*.html", "./index.html"],
   theme: {
     colors: {
       "blue-dark": "#172339",
@@ -22,6 +22,6 @@ module.exports = {
         xl: { max: "1155px" },
       },
     },
-    plugins: [require("tailwindcss"), require("autoprefixer")],
+    plugins: [],
   },
 };
