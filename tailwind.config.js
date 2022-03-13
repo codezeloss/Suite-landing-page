@@ -21,9 +21,6 @@ module.exports = {
         lg: { max: "1145px" },
         xl: { max: "1155px" },
       },
-      width: {
-        bk: "",
-      },
     },
     plugins: [require("tailwindcss"), require("autoprefixer")],
   },
